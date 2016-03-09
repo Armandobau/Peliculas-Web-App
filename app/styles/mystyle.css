@@ -1,0 +1,169 @@
+.cuerpo {
+    margin-left: 10px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header, .footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-group-item {
+    border: 0px ;
+    background: #9e9e9e;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+
+.list-group {
+    border-radius: 4px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+.footer {
+    background: #9e9e9e;
+    color: beige;
+}
+
+.footer h3 {
+    color: #7a7a7a;
+}
+
+.header {
+    background: #50a9e5;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+    border: 0px !important;
+}
+
+.navbar {
+    border-radius: 0px !important;
+}
+
+.navbar-nav>.active>a {
+    background: #2d85bf !important;
+}
+
+
+.navbar-nav>li>a:hover {
+    background: #4095ce !important;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-brand {
+    color: white !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #50a9e5;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #50a9e5;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #50a9e5; 
+}
+
+.navbar-default .navbar-nav>.open>a {
+    background: #4095ce !important;
+}
+
+.dropdown-menu {
+    padding: 0px;
+}
+
+.dropdown-menu>li>a {
+    background: #50a9e5;
+    color: white !important;
+}
+
+.dropdown-menu>li>a:hover {
+    background: #4095ce;
+}
+
+a, a:hover{
+    text-decoration: none !important;
+    color: beige;
+}
+
+
+.activo {
+    background: #4095ce !important;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+} 
+
+.lista {
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+h6 {
+    min-height: 30px;
+    max-width: 150px
+}
+
+.cabecera {
+    width: 100% !important;
+    height: 500px !important;
+}
+
+.cuerpo2 {
+    margin: 0px !important;
+    padding: 0px !important;
+    padding-right: 0px !important;
+}
+
+.rate {
+    padding-top: 0px !important;
+}
+
+.comments {
+    margin-top: 40px !important;
+}
+
+
+@media screen and (max-width: 767px) {
+    .cabecera {
+        width: 100% !important;
+        height: 300px !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .lista {
+        height: 180px !important;
+        width: 110px !important;
+    }
+    
+    .cuerpo {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    
+    .cabecera {
+        width: 100% !important;
+        height: 180px !important;
+    }
+}
+
+
+@media screen and (min-width: 530px) and (max-width: 767px) {
+    .col-xs-6 {
+    width: 33%;
+    }
+}
+
+

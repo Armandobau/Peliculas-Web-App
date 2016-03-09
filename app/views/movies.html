@@ -1,0 +1,10 @@
+<div class="container-fluid cuerpo" ng-controller="HomeController">
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-2" ng-repeat="movie in movies">
+            <a ui-sref="app.moviedetails({id: movie.id})">
+                <img class="img-rounded img-responsive lista" ng-src="{{baseURL+movie.image}}" alt="imagen" style="width:150px;height:220px">
+            </a>
+            <h6>{{movie.name}}</h6>
+        </div>
+    </div>
+</div>

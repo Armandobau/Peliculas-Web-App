@@ -1,0 +1,10 @@
+<div class="container-fluid cuerpo" ng-controller="ShowsController">
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-2" ng-repeat="show in shows">
+            <a ui-sref="app.showdetails({id: show.id})">
+                <img class="img-rounded img-responsive lista" ng-src="{{baseURL+show.image}}" alt="imagen" style="width:150px;height:220px">
+            </a>
+            <h6>{{show.name}}</h6>
+        </div>
+    </div>
+</div>
